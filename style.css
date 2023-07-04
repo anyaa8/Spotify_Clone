@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Slabo+27px&family=Zilla+Slab:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Lato:wght@100;300&family=Slabo+27px&family=Zilla+Slab:ital@1&display=swap');
+
+body{
+background-color: rgb(154, 132, 176);
+}
+
+*{
+margin: 0;
+padding: 0; 
+}
+
+nav{
+    font-family: 'Jost', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Zilla Slab', serif;*/
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(230, 235, 240);
+    align-items: center;
+}
+nav ul li{
+    padding:0 12px;
+    margin:10;
+}
+.brand img{
+    width: 40px;
+    padding: 0 10px 0 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+
+}
+.container{
+    font-family: 'Lato', sans-serif;
+    min-height: 65vh;
+    width: 70%;
+    background-color: black;
+    color: rgb(245, 244, 245);
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bgg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+.bottom{
+    position:sticky;
+    bottom:0;
+    display: flex;
+    height:88px;
+    background-color: #090505f8;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icons{
+    margin: 10px 0;
+    cursor: pointer;
+}
+.icons i{
+    margin: 0 10px;
+}
+#myProgressBar{
+    width: 50vw;
+    cursor: pointer;
+}
+
+.songItem{
+height: 40px;
+display: flex;
+background-color: beige;
+color: black;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+width: 110%;
+margin: 10px 5px;
+
+}
+.songItem img{
+    width: 34px;
+    margin: 0 5px;
+    border-radius: 34px;
+}
+.timestamp{
+margin: 0 12px;
+}
+
+.container i{
+    margin:0 12px;
+    cursor: pointer;
+}
+.songContainer{
+   margin-top: 25px;
+}
+.songInfo{
+    position:absolute;
+    left: 13vw;
+    align-items: center;
+}
+.songInfo img{
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
